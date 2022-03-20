@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/416/350/original/abstract-molecules-medical-science-background-vector.jpg);
+    color: white;
+}
+
+.subs{
+    border: 1px solid blue;
+}
+.column{
+    border: 1px solid blue;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+}
+.main-area{
+    display: flex;
+}
+
+
+/* styling of the subjects expansion */
+#textile_expand{
+    visibility:hidden;
+    background-color: antiquewhite;
+    z-index: 100px;
+    position: absolute;
+    margin-left: 200px;
+    width: 230px;
+    font-size: 20px;
+}
+#textile{
+    position:relative;
+}
+#textile:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#textile:hover + #textile_expand{
+    visibility: visible;
+}
+
+#chemistry_expand{
+    visibility:hidden;
+    background-color: antiquewhite;
+    z-index: 100px;
+    position: absolute;
+    margin-left: 200px;
+    width: 230px;
+    font-size: 20px;
+}
+#chemistry{
+    position:relative;
+}
+#chemistry:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#chemistry:hover + #chemistry_expand{
+    visibility: visible;
+}
+
+
+#physics_expand{
+    visibility:hidden;
+    background-color: antiquewhite;
+    z-index: 100px;
+    position: absolute;
+    margin-left: 200px;
+    width: 230px;
+    font-size: 20px;
+}
+#physics{
+    position:relative;
+}
+#physics:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#physics:hover + #physics_expand{
+    visibility: visible;
+}
+
+#biology_expand{
+    visibility:hidden;
+    background-color: antiquewhite;
+    z-index: 100px;
+    position: absolute;
+    margin-left: 200px;
+    width: 230px;
+    font-size: 20px;
+}
+#biology{
+    position:relative;
+}
+#biology:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#biology:hover + #biology_expand{
+    visibility: visible;
+}
+
+#biotech_expand{
+    visibility:hidden;
+    background-color: antiquewhite;
+    z-index: 100px;
+    position: absolute;
+    margin-left: 200px;
+    width: 230px;
+    font-size: 20px;
+}
+#biotech{
+    position:relative;
+}
+#biotech:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#biotech:hover + #biotech_expand{
+    visibility: visible;
+}
+
+#botany_expand{
+    visibility:hidden;
+    background-color: antiquewhite;
+    z-index: 100px;
+    position: absolute;
+    margin-left: 200px;
+    width: 230px;
+    font-size: 20px;
+}
+#botany{
+    position:relative;
+}
+#botany:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#botany:hover + #botany_expand{
+    visibility: visible;
+}
+
+
+/*styling of the open area*/
+
+#join_class{
+text-align: center;
+ text-decoration: none;
+ font-size: 40px;
+ font-weight: bolder;
+margin : auto 35%;
+color: aqua;
+}
+
+#main-para{
+    text-align: center;
+    margin: auto;
+    font-size : 20px;
+}
+
+/* styling cards*/
+.card-img-top{
+    width: 250px;
+    height: 200px;
+}
+.card{
+    display: inline-flex;
+    width: 270px;
+    height: 400px;
+    padding: 10px;
+    margin:5px;
+    background-color: aliceblue;
+    color: black;
+}
+footer{
+    text-align: center;
+}

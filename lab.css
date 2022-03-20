@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/000/416/350/original/abstract-molecules-medical-science-background-vector.jpg);
+}
+.table-column{
+    border: 1px solid aliceblue;
+    width: 250px;
+}
+.table{
+    border: 1px solid aliceblue;
+    height: 50px;
+}
+.tools{
+    display: flex;
+    margin: 0px auto;
+    max-width:200px;
+    width:100%;
+    max-height: 250px;
+    height: 100%;
+}
+.tools-description{
+    text-align: center;
+    color: white;
+}
+#header{
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: bolder;
+    background-color: black;
+}
+.options{
+    display: flex;
+}
+.opt{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+}
+.wrapper{
+    max-height: 890px;
+    overflow-y: scroll;
+}
+nav {
+   position: absolute;
+  transition: right 550ms ease-out 5ms;
+  width: 300px;
+  right: -17.8em;
+  background-color: aqua;
+  margin-top: 20px;
+  }
+  
+  nav:hover {
+    right: 0;
+  }
+  
+  nav .wrapper {
+    margin-left: 6em;
+  }
+  a{
+      font-size: 30px;
+      font-weight: bolder;
+      color: blue;
+     margin: auto 120px;
+  }
+  a:hover{
+      color:black;
+      background-color: aliceblue;
+  }
+  .virtual-lab{
+    height: 520px;
+    background-color: black;
+  }
+  #my-notes{
+      background-color: aqua;
+  }
